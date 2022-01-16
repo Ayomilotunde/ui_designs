@@ -17,7 +17,10 @@ debugShowCheckedModeBanner: false,
       title: 'data',
       home: Scaffold(
      backgroundColor: Colors.white,
-        body: SingleChildScrollView(
+        body:
+         Center(
+          child: SingleChildScrollView(
+
            child: SizedBox(
              child: Stack(
                children: [
@@ -105,13 +108,9 @@ debugShowCheckedModeBanner: false,
              ),
            ),
         ),
+        ),
       ),
-      // body: Container(
-      //   padding: const EdgeInsets.all(20.0),
-      //   child: const Center(
-      //     child: Text('This is my Home'),
-      //   ),
-      // ),
+
     );
   }
 }
